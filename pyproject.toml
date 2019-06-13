@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry==0.12.16"]
+
+[tool.poetry]
+name = "AWS EB Python worker"
+version = "0.0.1"
+description = ""
+authors = ["Nico de Vos <njdevos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.6"
+boto3 = "*"
+Flask = "*"
+
+[tool.poetry.dev-dependencies]
+awscli = "^1.16"
+pytest = "*"

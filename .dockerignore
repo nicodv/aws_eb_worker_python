@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore
